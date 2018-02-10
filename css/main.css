@@ -171,8 +171,13 @@ color: white;
 
 }
 .last-section{
-  background: linear-gradient(to bottom, #ec6568 75%, white 50%);
+  background: linear-gradient(to bottom, white 50%, #ec6568 50%);
+  height: 400px;
+
 }
+/*
+
+*/
 /*
 section{
 
@@ -182,13 +187,28 @@ border: 1px solid red;
 */
 /*ultima*/
 .circle-contact{
-  width: 100px;
-  height: 100px;
+  width: 145px;
+  height: 145px;
   border: 8px solid white;
   background-color: #ec6568;
   border-radius: 50%;
+  margin-bottom: 2rem;
 }
 
+.circle-contact a{
+  display: block;
+  font-size: 8rem;
+  color: white;
+  text-align: center;
+}
+
+button{
+  margin-top: 2rem;
+}
+footer{
+  background-color:#3a3039;
+  height: 80px;
+}
 
 @media (min-width: 992px){
   .img-profile{
