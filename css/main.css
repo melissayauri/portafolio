@@ -154,8 +154,10 @@ color: white;
   /*color de fondo*/
   background:  #ec6568;
   /*posicionamiento al medio de la estrella*/
-  margin-left: 20px;
-  border-radius: 10px;
+  margin-left: 25px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border-radius: 20px;
 }
 .icon-skill div{
   border: 1px solid white;
@@ -169,6 +171,14 @@ color: white;
 }
 .icon-skill div i{
 
+}
+.proyects{
+  background-color: #3a3039;
+  color: white;
+}
+
+img[alt="jquery"]{
+  width: 10vw;
 }
 .last-section{
   background: linear-gradient(to bottom, white 50%, #ec6568 50%);
