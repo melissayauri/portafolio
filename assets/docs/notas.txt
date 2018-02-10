@@ -1,0 +1,20 @@
+----------tipo de letra---------------
+* pacifico
+-<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+-font-family: 'Pacifico', cursive;
+
+*lobster
+-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+-font-family: 'Lobster', cursive;
+
+*swash
+-<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+-font-family: 'Berkshire Swash', cursive;
+
+* satisfay
+-<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+-font-family: 'Satisfy', cursive;
+
+*playball
+-<link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+-font-family: 'Playball', cursive;
