@@ -27,7 +27,7 @@ body{
   background-color: #352d36;
   border-radius: 50%;
   position: relative;
-  right: 7rem;
+  right: 5rem;
   top: 1rem;
 }
 .img-profile{
@@ -108,6 +108,10 @@ span{
   background: black;
   /*posicionamiento al medio de la estrella*/
   margin-bottom: 10px;
+
+}
+.block:after{
+    background: white;
 }
 .icon:before {
   /*no se aplica ningun texto*/
@@ -121,6 +125,10 @@ span{
   background: black;
   /*posicionamiento al medio de la estrella*/
   margin-bottom: 10px;
+  margin-right: 8px;
+}
+.block:before{
+  background: white;
 }
 
 .title{
@@ -128,16 +136,20 @@ span{
 }
 img[alt="about"]{
   border: 15px solid white;
+  margin-top: 5rem;
+
+}
+.info{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  line-height: 2;
 }
 /*sección tres*/
-.icon-skill{
 
-}
 .icon-skill i {
 
-border: 1px solid red;
-display: block;
-color: white;
+
+
 
 
 }
@@ -159,6 +171,7 @@ color: white;
   margin-top: 8px;
   border-radius: 20px;
 }
+/*esto hace el circle*/
 .icon-skill div{
   border: 1px solid white;
   width: 10vw;
@@ -185,6 +198,9 @@ img[alt="jquery"]{
   height: 400px;
 
 }
+.proyect{
+  background: linear-gradient(to top, white 50%, #ec6568 50%);
+}
 /*
 
 */
@@ -194,7 +210,11 @@ section{
 border: 1px solid red;
 
 }
+.
 */
+.title2{
+  margin-top: 15rem;
+}
 /*ultima*/
 .circle-contact{
   width: 145px;
@@ -220,7 +240,20 @@ footer{
   height: 80px;
 }
 
+/* circle progress*/
+
+
 @media (min-width: 992px){
+  .circle{
+    width: 200px;
+    height: 200px;
+    right: 9rem;
+    top: 3rem;
+
+  }
+  .circle h1{
+    font-size: 8rem;
+  }
   .img-profile{
     height: 80vh;
   }
@@ -237,4 +270,25 @@ footer{
     font-size: 8rem;
 
   }
+  /* seccion about*/
+  img[alt="about"]{
+
+    margin-top: 2rem;
+
+  }
+  .gray .text-left h3, .gray .text-right h3{
+    margin-top: 7rem;
+  }
+  .gray .text-lef p, .gray .text-right p{
+    margin-bottom: 3rem;
+  }
+  img[alt="jquery"]{
+    width: 5vw;
+  }
+  /*seccion skilld*/
+  .icon-skill div{
+      height: 10vh;
+      width: 5vw;
+  }
+
   }
