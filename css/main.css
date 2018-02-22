@@ -61,10 +61,7 @@ body{
     font-size: 28px;
 }
 
-p a{
-  color: lime;
-  text-decoration: none;
-}
+
 
 span{
   animation: blink 1s infinite;
@@ -208,10 +205,11 @@ img[alt="jquery"]{
 section{
 
 border: 1px solid red;
-
-}
-.
+}.
 */
+.proyect-img{
+  border: 5px solid white;
+}
 .title2{
   margin-top: 15rem;
 }
@@ -232,9 +230,14 @@ border: 1px solid red;
   text-align: center;
 }
 img[alt="proyect"]{
-  width: 80%;
-  height: 70%;
+  width: 100%;
+  height: 70vh;
+  border: 5px solid white;
+  border-radius: 1rem;
+
 }
+
+/* trasn*/
 button{
   margin-top: 2rem;
 }
@@ -243,7 +246,14 @@ footer{
   height: 80px;
 }
 
+/* cambio de menu*/
+.fondo{
+  background-color: transparent;
+  color: black;
+
+}
 /* circle progress*/
+/* tarnscion*/
 
 
 @media (min-width: 992px){
