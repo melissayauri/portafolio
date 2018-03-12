@@ -1,9 +1,12 @@
-$(document).ready(function() {
+
+$(function() {
+  $('#navbar').hide();
   $(window).scroll(function() {
-         if ($("#menu").offset().top > 56) {
-             $("#menu").addClass("fondo");
-         } else {
-             $("#menu").removeClass("fondo");
-         }
-       });
+    // set distance user needs to scroll before we start fadeIn
+    if ($(this).scrollTop() >= 600) {
+      $('#navbar').fadeIn(1000);
+    } else {
+      $('#navbar').fadeOut(1000);
+    }
+  });
 });
