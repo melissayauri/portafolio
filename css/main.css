@@ -123,6 +123,7 @@ img[alt="about"]{
   margin-bottom: 3rem;
   line-height: 2;
   font-size: 18px;
+  text-align: justify;
 }
 .gray h4{
     color:#303030;
