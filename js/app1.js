@@ -1,8 +1,7 @@
-
 $(document).ready(function() {
-var $lines = $('.prompt h1, .prompt h4');
-$lines.hide();
-var lineContents = new Array();
+  var $lines = $('.prompt h1, .prompt h4');
+  $lines.hide();
+  var lineContents = new Array();
 
 var terminal = function() {
 

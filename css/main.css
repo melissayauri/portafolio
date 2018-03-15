@@ -53,39 +53,6 @@ body{
 
 }
 
-/* efecto para la presentación
-#block-info h2{
-  white-space: nowrap;
-  overflow: hidden;
-  width: 25em;
-  animation: type 4s steps(60, end);
-
-}
-
-#block-info h2:nth-child(2){
-  animation: type2 8s steps(60, end);
-    font-size: 28px;
-}
-
-span{
-  animation: blink 1s infinite;
-}
-
-
-@keyframes type{
-  from { width: 0; }
-}
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
-}
-/* pulso a la raya
-@keyframes blink{
-  to{opacity: .0;}
-}
-/* estilos de la entda*/
 
 .output {
 display:none;
@@ -150,12 +117,30 @@ display:none;
 img[alt="about"]{
   border: 15px solid white;
   margin-top: 5rem;
-
 }
 .info{
-  margin-top: 3rem;
+  margin-top: 4rem;
   margin-bottom: 3rem;
   line-height: 2;
+  font-size: 18px;
+}
+.gray h4{
+    color:#303030;
+}
+.color-gray{
+  color:#303030;
+}
+.resume{
+  background-color: #ef7674;
+  display: block;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+}
+a{
+  color: white;
 }
 /*sección tres*/
 
@@ -314,5 +299,7 @@ footer{
       height: 10vh;
       width: 5vw;
   }
-
+  img[alt="about"]{
+    margin-left: 5rem;
+  }
   }
