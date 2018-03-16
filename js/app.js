@@ -9,4 +9,12 @@ $(function() {
       $('#navbar').fadeOut(1000);
     }
   });
+  $('.proyecto-img').hover(
+  function() {
+    $(this).children().eq(0).fadeIn(1000);
+  },
+  function() {
+    $(this).children().eq(0).fadeOut();
+  }
+);
 });
