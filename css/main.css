@@ -227,7 +227,7 @@ img[alt="jquery"]{
 }
 .proyect{
   background-color: #3b323c;
-  height: 700px;
+  height: 1100px;
 }
 /*
 
@@ -283,6 +283,9 @@ img[alt="proyect"]{
   display: flex;
   flex-direction: column;
 
+}
+.background h2, .background h4{
+  color: #ec6568;
 }
 .ocultar{
 	display: none;
