@@ -79,6 +79,7 @@ display:none;
 .icon{
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 /*aplicando línea laterale a la estrella*/
 .icon:after {
@@ -100,6 +101,7 @@ display:none;
   text-align: center;
   color: white;
   margin-bottom: 3rem;
+
 }
 .block:before {
   /*no se aplica ningun texto*/
@@ -220,14 +222,10 @@ img[alt="materialize"]{
 img[alt="jquery"]{
   width: 10vw;
 }
-.last-section{
-  background: linear-gradient(to bottom, white 50%, #ec6568 50%);
-  height: 400px;
 
-}
 .proyect{
   background-color: #3b323c;
-  height: 1100px;
+  height: 1700px;
 }
 /*
 
@@ -247,37 +245,39 @@ color: white;
 }
 /*ultima*/
 .circle-contact{
-  width: 145px;
-  height: 145px;
-  border: 8px solid white;
+  width: 100px;
+  height: 100px;
   background-color: #ec6568;
   border-radius: 50%;
   margin-bottom: 2rem;
+  margin-left: 1rem;
 }
 
-.circle-contact a{
+.circle-contact a {
   display: block;
-  font-size: 8rem;
+  font-size: 5rem;
   color: white;
   text-align: center;
+  padding-top: 1rem;
+
 }
 img[alt="proyect"]{
   width: 100%;
-  height: 70vh;
+  height: 60vh;
   border: 5px solid white;
   border-radius: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 
 }
 /**/
 .background{
-	width: 94%;
-  height: 70vh;
+	width: 100%;
+  height: 20vh;
 	margin: auto;
   border-radius: 1rem;
 	position: absolute;
 	z-index: 1;
-	top: 0; left: 0; bottom: 20px; right: 0;
+	top: 0; left: 0; bottom: 40px; right: 0;
 	/*background-color: #0f0e0a;*/
   background-color: white;
   display: flex;
@@ -303,8 +303,9 @@ button{
   margin-top: 2rem;
 }
 footer{
-  background-color:#3a3039;
-  height: 80px;
+  background-color:#ec6568;
+  height: 60px;
+  color: white;
 }
 
 /* cambio de menu*/
@@ -346,7 +347,10 @@ img[alt="creaton"]{
   justify-content: space-between;
 
 }
-
+.mail{
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
 
 @media (min-width: 992px){
   .circle{
@@ -410,4 +414,18 @@ img[alt="creaton"]{
 .flex{
   margin-top: 4rem;
 }
+.proyect{
+  height: 1100px;
+}
+img[alt="proyect"]{
+  width: 100%;
+  height: 80vh;
+}
+
   }
+  .background{
+  	width: 100%;
+    height: 70vh;
+
+  }
+}
