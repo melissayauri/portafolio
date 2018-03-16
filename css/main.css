@@ -151,13 +151,7 @@ a{
 }
 /*sección tres*/
 
-.icon-skill i {
 
-
-
-
-
-}
 
 
 
@@ -180,6 +174,7 @@ a{
 }
 .skill{
   background-color: white;
+  margin-bottom: 2rem;
 
 }
 img[alt="materialize"]{
@@ -295,9 +290,17 @@ footer{
     width: 5vw;
   }
   /*seccion skilld*/
+  .icon-skill {
+    margin-left: 13rem;
+
+    height: 18vh;
+
+  }
+
   .icon-skill div{
-      height: 10vh;
-      width: 5vw;
+    margin-top: 2rem;
+    font-size: 5rem;
+
   }
 
   }
