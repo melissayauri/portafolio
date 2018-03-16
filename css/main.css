@@ -1,7 +1,7 @@
 *{
   margin: 0;
- padding: 0;
- box-sizing: border-box;
+  padding: 0;
+  box-sizing: border-box;
 }
 .line{
   border: 1px solid blue;
@@ -9,28 +9,21 @@
 a{
   text-decoration: none;
   color: white;
-
 }
 body{
   color: black;
   font-family: 'Oleo Script Swash Caps', cursive;
 }
-/*generales*/
-.shadow{
- box-shadow: 10px 10px 5px 10px ;
- /* animation: blink 3s infinite;*/
-}
-/**/
+/*navbar principal*/
 .principal{
   margin: 0 auto;
-   background-color:  #ec6568;
-   padding: 0.7rem 3.5rem;
-   position: fixed;
-   max-width: 100%;
-   width: 100%;
-   z-index: 7000;
-   font-family: 'Roboto', sans-serif;
-
+  background-color:  #ec6568;
+  padding: 0.7rem 3.5rem;
+  position: fixed;
+  max-width: 100%;
+  width: 100%;
+  z-index: 7000;
+  font-family: 'Roboto', sans-serif;
 }
 .navbar-default .navbar-brand{
   color: white;
@@ -55,30 +48,20 @@ background-color: white;
   background-image: url("../assets/imagenes/meli1.jpg");
   background-size: cover;
   height: 45vh;
-
 }
-
 .coral{
   background-color: #ec6568;
   color: white;
 }
-
- .name{
+.name{
   margin-top: 4rem;
-
 }
-
-
 .output {
-display:none;
-
+  display:none;
 }
 .active:after {
   content: '|';
 }
-
-/**/
-
 .mg{
   margin-top: 0px;
 }
@@ -104,14 +87,12 @@ display:none;
   background: black;
   /*posicionamiento al medio de la estrella*/
   margin-bottom: 10px;
-
 }
 .block{
   font-size: 3rem;
   text-align: center;
   color: white;
   margin-bottom: 3rem;
-
 }
 .block:before {
   /*no se aplica ningun texto*/
@@ -157,7 +138,6 @@ display:none;
 .block:before{
   background: white;
 }
-
 .title{
   padding-top: 3rem;
 }
@@ -173,9 +153,9 @@ img[alt="about"]{
   font-family: 'Roboto', sans-serif;
 }
 .gray h4{
-    color:#303030;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+  color:#303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 .color-gray{
   color:#303030;
@@ -196,12 +176,6 @@ a{
   background-color: white;
   color: #ef7674;
 }
-/*sección tres*/
-
-
-
-
-
 /*esto hace el circle*/
 .icon-skill {
   border: 1px solid white;
@@ -216,14 +190,11 @@ a{
   z-index: 4000;
 }
 .icon-skill div{
-
   margin-top: 1rem;
-
 }
 .skill{
   background-color: white;
   margin-bottom: 2rem;
-
 }
 img[alt="materialize"]{
   width: 5vw;
@@ -232,26 +203,16 @@ img[alt="materialize"]{
 img[alt="jquery"]{
   width: 10vw;
 }
-
 .proyect{
   background-color: #3b323c;
   height: 1700px;
 }
-/*
-
-*/
-/*
-section{
-
-border: 1px solid red;
-}.
-*/
 .proyect-img{
   border: 5px solid white;
 }
 .title2{
   padding-top: 3rem;
-color: white;
+  color: white;
 }
 /*ultima*/
 .circle-contact{
@@ -269,7 +230,6 @@ color: white;
   color: white;
   text-align: center;
   padding-top: 1rem;
-
 }
 img[alt="proyect"]{
   width: 100%;
@@ -277,7 +237,6 @@ img[alt="proyect"]{
   border: 5px solid white;
   border-radius: 1rem;
   margin-bottom: 5rem;
-
 }
 /**/
 .background{
@@ -288,11 +247,9 @@ img[alt="proyect"]{
 	position: absolute;
 	z-index: 1;
 	top: 0; left: 0; bottom: 40px; right: 0;
-	/*background-color: #0f0e0a;*/
   background-color: white;
   display: flex;
   flex-direction: column;
-
 }
 .background h2, .background h4{
   color: #ec6568;
@@ -305,10 +262,7 @@ img[alt="proyect"]{
   display: block;
   font-size: 24px;
   margin-top: 8rem;
-
-
 }
-/* trasn*/
 button{
   margin-top: 2rem;
 }
@@ -317,22 +271,13 @@ footer{
   height: 60px;
   color: white;
 }
-
-/* cambio de menu*/
-.fondo{
-  background-color: transparent;
-  color: black;
-
-}
-
+/*imagen para los logros*/
 img[alt="creaton"]{
   width: 80%;
   height: 40vh;
   border-radius: 20px;
   border: 5px solid white;
 }
-/* circle progress*/
-/* tarnscion*/
 .logros{
   padding-bottom: 2rem;
 }
@@ -340,13 +285,11 @@ img[alt="creaton"]{
   display: block;
   color:#ec6568;
   margin-bottom: 4rem;
-
 }
 .link:hover{
   color: black;
   text-decoration: none;
 }
-
 .logros h4{
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
@@ -356,20 +299,18 @@ img[alt="creaton"]{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 .mail{
   font-size: 16px;
   margin-bottom: 2rem;
 }
-
+/* layout desktop*/
 @media (min-width: 992px){
   .circle{
     width: 200px;
     height: 200px;
     right: 9rem;
     top: 3rem;
-
   }
   .circle h1{
     font-size: 8rem;
@@ -379,9 +320,9 @@ img[alt="creaton"]{
     margin-top: 8rem;
     font-size: 7rem;
   }
-    .prompt h4{
-      font-size: 4rem;
-    }
+  .prompt h4{
+    font-size: 4rem;
+  }
   .img-profile{
     height: 100vh;
   }
@@ -390,8 +331,6 @@ img[alt="creaton"]{
     width: 80%;
     height: 50vh;
     margin-left: 4rem;
-
-
   }
   .gray .text-left h3, .gray .text-right h3{
     margin-top: 7rem;
@@ -402,22 +341,18 @@ img[alt="creaton"]{
   img[alt="jquery"]{
     width: 5vw;
   }
-  /*seccion skilld*/
+  /*seccion skills*/
   .icon-skill {
     margin-left: 13rem;
-
     height: 18vh;
-
   }
-
   .icon-skill div{
     margin-top: 2rem;
     font-size: 5rem;
-
   }
-.info{
-font-size: 18px;
-}
+  .info{
+    font-size: 18px;
+  }
 .space{
   display: block;
   margin-top: 9rem;
@@ -432,12 +367,9 @@ img[alt="proyect"]{
   width: 100%;
   height: 80vh;
 }
-
-  }
-  .background{
-  	width: 90%;
-    height: 80vh;
-    top: 0; left: 0; bottom: 50px; right: 0;
-
-  }
+.background{
+  width: 90%;
+  height: 80vh;
+  top: 0; left: 0; bottom: 50px; right: 0;
+}
 }
