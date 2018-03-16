@@ -115,7 +115,7 @@ display:none;
   padding-top: 3rem;
 }
 img[alt="about"]{
-  border: 15px solid white;
+  border: 6px solid white;
   margin-top: 5rem;
 }
 .info{
@@ -127,6 +127,8 @@ img[alt="about"]{
 }
 .gray h4{
     color:#303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 .color-gray{
   color:#303030;
@@ -143,6 +145,10 @@ img[alt="about"]{
 a{
   color: white;
 }
+.resume:hover{
+  background-color: white;
+  color: #ef7674;
+}
 /*sección tres*/
 
 .icon-skill i {
@@ -154,24 +160,9 @@ a{
 }
 
 
-.icon-skill:before {
-  /*no se aplica ningun texto*/
-  content: " ";
-  /*se posiciona al lado de la estrella*/
-  display: block;
-  /*tamaño de la linea*/
-  width: 5px;
-  height: 50px;
-  /*color de fondo*/
-  background:  #ec6568;
-  /*posicionamiento al medio de la estrella*/
-  margin-left: 25px;
-  margin-bottom: 8px;
-  margin-top: 8px;
-  border-radius: 20px;
-}
+
 /*esto hace el circle*/
-.icon-skill div{
+.icon-skill {
   border: 1px solid white;
   width: 10vw;
   height: 10vh;
@@ -180,15 +171,21 @@ a{
   background-color:   #ec6568;
   color: white;
   font-size: 3rem;
+  margin-left: 4rem;
 }
-.icon-skill div i{
+.icon-skill div{
+
+  margin-top: 1rem;
 
 }
-.proyects{
-  background-color: #3a3039;
-  color: white;
-}
+.skill{
+  background-color: white;
 
+}
+img[alt="materialize"]{
+  width: 5vw;
+  margin-bottom: 2rem;
+}
 img[alt="jquery"]{
   width: 10vw;
 }
@@ -282,8 +279,10 @@ footer{
   }
   /* seccion about*/
   img[alt="about"]{
+    width: 80%;
+    height: 50vh;
+    margin-left: 4rem;
 
-    margin-top: 2rem;
 
   }
   .gray .text-left h3, .gray .text-right h3{
@@ -300,7 +299,5 @@ footer{
       height: 10vh;
       width: 5vw;
   }
-  img[alt="about"]{
-    margin-left: 5rem;
-  }
+
   }
