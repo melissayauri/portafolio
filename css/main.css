@@ -169,7 +169,6 @@ img[alt="about"]{
   margin-top: 4rem;
   margin-bottom: 3rem;
   line-height: 2;
-  font-size: 8px;
   text-align: justify;
   font-family: 'Roboto', sans-serif;
 }
@@ -341,6 +340,7 @@ img[alt="creaton"]{
   display: block;
   color:#ec6568;
   margin-bottom: 4rem;
+
 }
 .link:hover{
   color: black;
@@ -416,7 +416,7 @@ img[alt="creaton"]{
 
   }
 .info{
-  font-size: 22px;
+font-size: 18px;
 }
 .space{
   display: block;
