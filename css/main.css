@@ -46,8 +46,12 @@ background-color: white;
 }
 .img-profile{
   background-image: url("../assets/imagenes/meli1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 45vh;
+  width: 40vw;
+
 }
 .coral{
   background-color: #ec6568;
@@ -205,7 +209,7 @@ img[alt="jquery"]{
 }
 .proyect{
   background-color: #3b323c;
-  height: 1700px;
+  height: 1900px;
 }
 .proyect-img{
   border: 5px solid white;
@@ -325,6 +329,10 @@ img[alt="creaton"]{
   }
   .img-profile{
     height: 100vh;
+
+
+
+
   }
   /* seccion about*/
   img[alt="about"]{
@@ -359,9 +367,6 @@ img[alt="creaton"]{
 }
 .flex{
   margin-top: 4rem;
-}
-.proyect{
-  height: 1300px;
 }
 img[alt="proyect"]{
   width: 100%;
