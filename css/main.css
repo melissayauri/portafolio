@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.mgt{
+  padding-bottom: 3rem;
+}
+.ing{
+  word-wrap: break-word;
+}
 .line{
   border: 1px solid blue;
 }
@@ -147,7 +153,9 @@ background-color: white;
 }
 img[alt="about"]{
   border: 6px solid white;
-  margin-top: 5rem;
+  margin-top: 2rem;
+  width: 100%;
+  height: 20vh;
 }
 .info{
   margin-top: 4rem;
@@ -170,6 +178,7 @@ img[alt="about"]{
   color: white;
   padding-top: 1rem;
   padding-bottom: 1rem;
+
   margin-bottom: 3rem;
   border-radius: 1rem;
 }
@@ -190,7 +199,7 @@ a{
   background-color:   #ec6568;
   color: white;
   font-size: 3rem;
-  margin-left: 4rem;
+  margin-left: 3rem;
   z-index: 4000;
 }
 .icon-skill div{
@@ -209,7 +218,7 @@ img[alt="jquery"]{
 }
 .proyect{
   background-color: #3b323c;
-  height: 1900px;
+  height: 21s00px;
 }
 .proyect-img{
   border: 5px solid white;
@@ -225,7 +234,7 @@ img[alt="jquery"]{
   background-color: #ec6568;
   border-radius: 50%;
   margin-bottom: 2rem;
-  margin-left: 1rem;
+
 }
 
 .circle-contact a {
@@ -307,6 +316,7 @@ img[alt="creaton"]{
 .mail{
   font-size: 16px;
   margin-bottom: 2rem;
+  margin-right: 2rem;
 }
 /* layout desktop*/
 @media (min-width: 992px){
@@ -336,14 +346,21 @@ img[alt="creaton"]{
   }
   /* seccion about*/
   img[alt="about"]{
+    height: 30vh;
     width: 80%;
-    height: 50vh;
-    margin-left: 4rem;
+    position:absolute;
+    top: -70px;
+    margin-left: 2rem;
+
+
+
+
   }
-  .gray .text-left h3, .gray .text-right h3{
-    margin-top: 7rem;
+  .gray .text-left h4, .gray .text-right h4|{
+    margin-bottom: 4rem;
+
   }
-  .gray .text-lef p, .gray .text-right p{
+  .gray .text-left p, .gray .text-right p{
     margin-bottom: 3rem;
   }
   img[alt="jquery"]{
@@ -376,5 +393,11 @@ img[alt="proyect"]{
   width: 90%;
   height: 80vh;
   top: 0; left: 0; bottom: 50px; right: 0;
+}
+.mail{
+  margin-right: 4rem;
+}
+.circle-contact{
+  margin-left: 3rem;
 }
 }
