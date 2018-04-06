@@ -3,123 +3,137 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="assets/imagenes/meli.jpg">
+    <link rel="icon" href="assets/imagenes/icon.PNG">
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Bienvenidos a mi portafolio</title>
+    <title>Melissa Yauri</title>
   </head>
   <body>
-    <!-- encabezado -->
+    <!--Navbar-->
     <header>
-      <nav class="  navbar-default  principal" id="navbar">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">melissa</a>
+      <nav class="navbar navbar-expand-lg navbar-light principal" id="navbar">
+        <a class="navbar-brand" href="#">
+          <div class="circle-nav">
+            <h5 class="text-center mt-3">My</h5>
           </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#about">Acerca de mí</a></li>
-              <li><a href="#skills">Mis Habilidades</a></li>
-              <li><a href="#logros">Mis Logros</a></li>
-              <li><a href="#proyects">Mis Proyectos</a></li>
-              <li><a href="#contact">Contáctame</a></li>
-            </ul>
-          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Acerca de mí<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Mis Habilidades<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Mis Logros<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Mis Proyectos<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Contáctame<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
     <!-- fin del encabezado -->
     <!-- sección presentación-->
-    <section class="coral">
+    <section class="coral letter1">
       <div class="container-fluid">
         <div class="row">
           <!--Imagen-->
-          <div class="col-xs-5  img-profile">
+          <div class="cols-5  img-profile">
           </div>
           <!--logo nombre-->
-          <div class="col-xs-7">
+          <div class="col-7">
             <div class="circle">
-              <h1 class="text-center">My</h1>
+              <h1 class="text-center mt-3">My</h1>
             </div>
-            <div class="prompt">
-              <h1 class="effect">Melissa Yauri</h1>
-              <h4 class="effect">I'm front-end developer</h4>
+            <div class="prompt pt-3">
+              <h1>Melissa Yauri</h1>
+              <h4>I'm front-end developer</h4>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- fin de la sección presentación -->
-    <!-- segunda sección-acerca de mí-->
-    <section class="gray mgt" id=about>
+    <!--secciòn sobre mi-->
+    <section class="gray">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12">
-            <h1 class="text-center mg title">Acerca de mí</h1>
+        <div class="row mb-1">
+          <div class="col-12">
+            <h1 class="text-center letter1 mt-3">Acerca de mí</h1>
             <div class="icon">
               <i class="fab fa-earlybirds"></i>
             </div>
           </div>
         </div>
       </div>
-      <!--Descripción-->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-4 text-right">
-            <h3 >Cualidades</h3>
-            <h4 >Actitud positiva, dedicación y trabajo en equipo</h4>
+      <div class="container">
+        <div class="row mb-1 mgb">
+          <div class="col-4 text-right">
+            <h3 class="letter1 ">Cualidades</h3>
+            <p class="">Actitud positiva, dedicación y trabajo en equipo</p>
           </div>
-          <div class="col-xs-4">
+          <div class="col-4 ml-auto text-left">
+            <h3 class="letter1">Idiomas</h3>
+            <p class="">Español, Inglés intermedio</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mb-1 ">
+          <div class="col-4 text-right">
+            <h3 class="letter1 t">Estudio</h3>
+            <p class="wrap "> Ingeniera electrónica con mencion en Telecomunicaciones</p>
+          </div>
+          <div class="col-4">
+            <img class="img-fluid rounded-circle "src="assets/imagenes/tech.jpg" alt="about">
+          </div>
+          <div class="col-4 text-left">
+          <h3 class="letter1">Meta</h3>
+          <p class="">Crear mi empresa de aplicaciones móviles con inteligencia artificial </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mb-1">
+          <div class="col-4 text-right">
+            <h3 class="letter1">Hobbies</h3>
+            <p class="">Viajar y asistir al teatro y museos<p>
+          </div>
+
+          <div class="col-4 text-left ml-auto">
+            <h3 class="wrap letter1">Centro de investigación</h3>
+            <p class="text-justify">INTI-Lab</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <p class="text-justify mt-4">Mi nombre es Melissa Yauri, soy front-end developer e ingeniera electrónica. Desde pequeña me gustó la innovación, por ello adoro participar en proyectos que busquen innovar ideas y más aún si generan un beneficio a la sociedad.Deseo especializarme en inteligencia artificial.</p>
 
           </div>
-          <div class="col-xs-4 text-left">
-            <h3>Idiomas</h3>
-            <h4>Español, Inglés intermedio</h4>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-4 text-right">
-            <h3>Estudio</h3>
-            <h4 class="ing"> Ingeniera electrónica con mencion en Telecomunicaciones</h4>
-          </div>
-          <div class="col-xs-4">
-            <img class="img-responsive img-circle"src="assets/imagenes/tech.jpg" alt="about">
-          </div>
-          <div class="col-xs-4 text-left">
-          <h3>Meta</h3>
-          <h4 >Crear mi empresa de aplicaciones móviles con inteligencia artificial </h4>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-4 text-right">
-            <h3>Hobbies</h3s>
-            <h4 class="color-gray">Viajar y asistir al teatro y museos</h4>
-          </div>
-          <div class="col-xs-4">
+          <div class="row">
+            <div class="col-12">
+              <a class="btn btn-default center-block  resume mb-4" href="assets/docs/cv.pdf" role="button" download><h3><i class="fas fa-download"></i>Descarga CV</h3></a>
+            </div>
 
           </div>
-          <div class="col-xs-4 text-left">
-            <h3 class="ing">Centro de investigación</h3>
-            <h4 class="">INTI-Lab</h4>
           </div>
-        </div>
-      </div>
-      <div class="container-fluid">
+          </div>
+        </section>
+    <!--  <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 ">
             <p class="text-center info">Mi nombre es Melissa Yauri, soy front-end developer e ingeniera electrónica. Desde pequeña me gustó la innovación, por ello adoro participar en proyectos que busquen innovar ideas y más aún si generan un beneficio a la sociedad.Deseo especializarme en inteligencia artificial.</p>
@@ -128,214 +142,23 @@
             <a class="btn btn-default center-block  resume" href="assets/docs/cv.pdf" role="button" download><h3><i class="fas fa-download"></i>Descarga CV</h3></a>
           </div>
         </div>
-      </div>
+      </div>-->
 
     </section>
-    <!-- Sección mis habilidades-->
-    <section class="skill " id="skills">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 ">
-            <h1 class="text-center mg title">Mis Habilidades</h1>
-            <div class="icon">
-              <i class="fas fa-lightbulb"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row  center-block">
-          <div class="col-xs-4">
-            <h3 class="text-center">Javascript</h3>
-            <div class="icon-skill">
-              <div class="">
-                <i class="fab fa-js-square"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4 ">
-            <h3 class="text-center">Jquery</h3>
-            <div class="icon-skill">
-              <div class="">
-                <img src="assets/imagenes/jquery.png" alt="jquery">
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4 ">
-            <h3 class="text-center">Html 5</h3>
-            <div class="icon-skill">
-              <div class="">
-                <i class="fab fa-html5"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4 ">
-            <h3 class="text-center">Css3</h3>
-            <div class="icon-skill">
-              <div class="">
-                <i class="fab fa-css3-alt"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4 ">
-            <h3 class="text-center">Materialize</h3>
-            <div class="icon-skill">
-              <div class="">
-                <img src="assets/imagenes/materialize.png" alt="materialize">
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4 ">
-            <h3 class="text-center">Bootstrap</h3>
-            <div class="icon-skill">
-              <div class="">
-                <i class="glyphicon glyphicon-bold"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4 ">
-            <h3 class="text-center">Github</h3>
-            <div class="icon-skill">
-              <div class="">
-                <i class="fab fa-github"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--logros-->
-    <section class="gray logros" id=logros>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12">
-            <h1 class="text-center mg title">Mis Logros</h1>
-            <div class="icon">
-              <i class="fas fa-trophy"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 col-md-4">
-            <h1 class="text-center">I Creatón</h1>
-            <img class="img-responsive center-block" src="assets/imagenes/creaton.jpg" alt="creaton">
-            <h4 class="text-justify ing">Equipo ganador por el aplicativo 'Paty' que facilita la movilidad del transporte público</h4>
-            <a class="link text-center space" href="http://www.uch.edu.pe/uch-noticias/p/uch-organiza-la-i-creaton" target="_blank "role="button" ><h3>Ver más</h3></a>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <h1 class="text-center">Coproing 2017</h1>
-              <img class="img-responsive center-block" src="assets/imagenes/coproing.jpg" alt="creaton">
-              <h4 class="text-justify ing">Finalista en el concurso que promueve el desarrollo de nuevas ideas en las áreas relacionadas con la Ingeniería.El proyecto se baso en detectar la somnolencia de un conductor de vehículo para reducir los accidentes de tránsito</h4>
-              <a class="link text-center" href="http://www.uch.edu.pe/uch-noticias/p/proyectos-de-la-uch-obtienen-primeros-puestos-en-coproing-2017" target="_blank "role="button" ><h3>Ver más</h3></a>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <h1 class="text-center">BioSmart 2017- Francia</h1>
-              <img class="img-responsive center-block" src="assets/imagenes/smart1.PNG" alt="creaton">
-              <h4 class="text-justify ing">Trabajo colaborativo para optimizar el algoritmo de detección de estados de somnolencia con técnicas de inteligencia artificial</h4>
-              <div class="flex ">
-                <a class="link " href="http://www.uch.edu.pe/uch-noticias/p/investigadores-de-la-uch-representan-al-peru-en-congreso-cientifico-de-paris" target="_blank "role="button" ><h3>Ver más</h3></a>
-                <a class="link " href="assets/docs/investigacion.pdf" role="button"  download ><h3>Ver investigación</h3></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Sección proyectos-->
-      <section class=" proyect " id="proyects">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 ">
-              <h1 class="text-center mg title2">Mis proyectos</h1>
-              <div class="block">
-                <i class="fas fa-briefcase"></i>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <!--Dessetmap-->
-            <div class="col-xs-12 col-md-4 proyecto-img">
-              <div class="background ocultar ">
-                <a class="btn boton-link" href="https://melissayauri.github.io/web-app-foodmap" target="_blank"><i class="fas fa-eye"></i> Demo</a>
-                <a class="btn boton-link" href="https://github.com/melissayauri/web-app-foodmap" target="_blank"><i class="fab fa-github"></i> Código</a>
-              </div>
-              <img class="img-responsive " src="assets/imagenes/proyect1.PNG" alt="proyect">
-            </div>
-            <!--Lyft-->
-            <div class="col-xs-12 col-md-4 proyecto-img">
-              <div class="background ocultar ">
-                <a class="btn boton-link" href="https://melissayauri.github.io/web-app-lyft/" target="_blank"><i class="fas fa-eye"></i> Demo</a>
-                <a class="btn boton-link" href="https://github.com/melissayauri/web-app-lyft" target="_blank"><i class="fab fa-github"></i> Código</a>
-              </div>
-              <img class="img-profile img-responsive" src="assets/imagenes/lyft.PNG" alt="proyect">
-            </div>
-            <!--Bitácora-->
-            <div class="col-xs-12 col-md-4 proyecto-img">
-              <div class="background ocultar ">
-                <h2 class="text-center">Trabajo colaborativo</h2>
-                <a class="btn boton-link" href="https://melissayauri.github.io/bitacora/public/" target="_blank"><i class="fas fa-eye"></i> Demo</a>
-                <a class="btn boton-link" href="https://github.com/melissayauri/bitacora" target="_blank"><i class="fab fa-github"></i> Código</a>
-              </div>
-              <img class=" img-responsive" src="assets/imagenes/bitacora.PNG" alt="proyect">
-            </div>
-            <!--Insta collage-->
-            <div class="col-xs-12 col-md-4 col-md-offset-4 proyecto-img">
-              <div class="background ocultar ">
-                <h2 class="text-center">Trabajo colaborativo</h2>
-                <h4 class="text-center">Crea tu collage</h4>
-                <a class="btn boton-link" href="https://github.com/melissayauri/insta-collage" target="_blank"><i class="fas fa-eye"></i> Demo</a>
-                <a class="btn boton-link" href="https://insta-collage-9b6b9.firebaseapp.com/" target="_blank"><i class="fab fa-github"></i> Código</a>
-              </div>
-              <img class="img-profile img-responsive" src="assets/imagenes/insta.PNG" alt="proyect">
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Sección contáctame-->
-      <section class="gray " id="contact">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xs-12 ">
-              <h1 class="text-center mg title">Contáctame</h1>
-              <div class="icon">
-                <i class="fas fa-handshake"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xs-4 col-md-3 col-md-offset-2 ">
-              <div class="circle-contact ">
-                <a href="https://pe.linkedin.com/in/melissa-rosemery-yauri-machaca" target="_blank"><i class="fab fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="col-xs-4  col-md-3  ">
-              <div class="circle-contact">
-                <a href="#"><i class="fas fa-envelope"></i></a>
-              </div>
-            </div>
-            <div class="col-xs-4  col-md-3 ">
-              <div class="circle-contact ">
-                <a href="https://github.com/melissayauri" target="_blank"><i class="fab fa-github-square"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xs-12">
-              <h4 class="text-center mail ">yaurimelissa@gmail.com</h4>
-            </div>
-          </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!-- fin de la sección presentación -->
 
-        </div>
-      </section>
-      <!-- footer-->
-      <footer>
-        <p class="text-center title">Copyright by Melissa Yauri</p>
-      </footer>
       <!-- Enlace Jquery Vs 3.2.1 -->
       <script src="vendors/js/jquery-3.2.1.min.js"></script>
       <!-- Enlace Bootstrap - Funcionalidad en Javascript Vs 3.3.7 -->
