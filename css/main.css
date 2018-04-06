@@ -142,6 +142,25 @@ img[alt="icon-hablt1"]{
   height: 80px;
 
 }
+/*sección mis logros*/
+.btn-coral{
+  background-color: #ef7674;
+  border-color: #ef7674;
+  color: white;
+}
+.btn-coral:hover{
+  background-color: #3b323c;
+  border-color:#3b323c;
+  color: white;
+}
+a:active{
+  color: white;
+}
+img[alt="logro"]{
+  width: 100%;
+  height: 35vh;
+
+}
 /* Tablets*/
 @media (min-width: 768px){
   .img-profile{
@@ -163,6 +182,11 @@ img[alt="icon-hablt1"]{
   img[alt="icon-hablt1"]{
     width: 70%;
 
+
+  }
+  img[alt="logro"]{
+
+    height: 20vh;
 
   }
 
@@ -204,6 +228,11 @@ img[alt="icon-hablt1"]{
   img[alt="icon-hablt1"]{
     width: 40%;
 
+
+  }
+  img[alt="logro"]{
+    width: 100%;
+    height: 50vh;
 
   }
   /*
