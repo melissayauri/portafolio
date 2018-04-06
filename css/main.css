@@ -131,9 +131,13 @@ img[alt="about"]{
   }
   img[alt="about"]{
     width: 200px;
-    height: 130px;
+    height: 180px;
     margin-top: 0rem;
-    margin-left: 1rem;
+    /*margin-top: 0rem;
+    margin-left: 1rem;*/
+    position: absolute;
+    bottom: -20px;
+    left: 1.5rem;
 
 
   }
@@ -157,15 +161,16 @@ img[alt="about"]{
     font-size: 4rem;
   }
   img[alt="about"]{
-    width: 200px;
-    height: 180px;
+    width: 230px;
+    height: 200px;
     /*margin-left: 3.5rem;
     width: 160px;
     height: 120px;*/
-    position: absolute;
+    /*
     bottom: -2rem;
+    */
+    position: absolute;
     left: 3rem;
-
   }
   /*
   .mgb{
