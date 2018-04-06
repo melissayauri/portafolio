@@ -69,6 +69,13 @@ body{
   right: 4rem;
   top: 1rem;
 }
+/*efecto*/
+.output {
+  display:none;
+}
+.activ:after {
+  content: '|';
+}
 /* Sección sobre mi*/
 .gray{
   background-color: #e6e6e6;
@@ -124,6 +131,17 @@ img[alt="about"]{
 
   border-radius: 1rem;
 }
+/*seccion mis habilidades*/
+img[alt="icon-hablt"]{
+  width: 60%;
+  height: 70px;
+
+}
+img[alt="icon-hablt1"]{
+  width: 90%;
+  height: 80px;
+
+}
 /* Tablets*/
 @media (min-width: 768px){
   .img-profile{
@@ -133,11 +151,17 @@ img[alt="about"]{
     width: 200px;
     height: 180px;
     margin-top: 0rem;
-    /*margin-top: 0rem;
-    margin-left: 1rem;*/
     position: absolute;
     bottom: -20px;
     left: 1.5rem;
+  }
+  img[alt="icon-hablt"]{
+    width: 50%;
+
+
+  }
+  img[alt="icon-hablt1"]{
+    width: 70%;
 
 
   }
@@ -172,6 +196,16 @@ img[alt="about"]{
     position: absolute;
     left: 3rem;
   }
+  img[alt="icon-hablt"]{
+    width: 30%;
+
+
+  }
+  img[alt="icon-hablt1"]{
+    width: 40%;
+
+
+  }
   /*
   .mgb{
     margin-bottom: 2rem!important;
@@ -204,14 +238,8 @@ background-color: white;
 
 .name{
   margin-top: 4rem;
-}
-.output {
-  display:none;
 }*/
-/*
-.active:after {
-  content: '|';
-}*/
+
 /*
 .mg{
   margin-top: 0px;
