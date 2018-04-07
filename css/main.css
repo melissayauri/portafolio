@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.line{
+  border: 1px solid blue;
+}
 a{
   text-decoration: none;
   color: white;
@@ -85,7 +88,7 @@ body{
 .icon{
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 2rem;
+
 }
 
 /*aplicando línea laterale a la estrella*/
@@ -161,6 +164,67 @@ img[alt="logro"]{
   height: 35vh;
 
 }
+/*sección proyects*/
+.proyect{
+  background-color: #3b323c;
+}
+.block{
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+
+}
+.block:before {
+  /*no se aplica ningun texto*/
+  content: " ";
+  /*se posiciona al lado de la estrella*/
+  display: inline-block;
+  /*tamaño de la linea*/
+  width: 100px;
+  height: 5px;
+  /*color de fondo*/
+  background: white;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
+  margin-right: 8px;
+}
+.block:after{
+  /*no se aplica ningun texto*/
+  content: " ";
+  /*se posiciona al lado de la estrella*/
+  display: inline-block;
+  /*tamaño de la linea*/
+  width: 100px;
+  height: 5px;
+  /*color de fondo*/
+  background: white;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
+}
+/*secciòn proyectos*/
+img[alt="proyect"]{
+  width: 100%;
+  height: 45vh;
+}
+
+.borde{
+  border: 3px solid white;
+}
+.background{
+	width: 90%;
+  height: 60vh;
+	margin: auto;
+  border-radius: 1rem;
+	position: absolute;
+	z-index: 1;
+	top: 0; left: 0; bottom: 50px; right: 0;
+  background-color: rgba(255,255,255,0.7);
+  display: flex;
+  flex-direction: column;
+}
+.ocultar{
+	display: none;
+}
 /* Tablets*/
 @media (min-width: 768px){
   .img-profile{
@@ -188,6 +252,10 @@ img[alt="logro"]{
 
     height: 20vh;
 
+  }
+  img[alt="proyect"]{
+
+    height: 30vh;
   }
 
 }
@@ -235,6 +303,10 @@ img[alt="logro"]{
     height: 50vh;
 
   }
+  img[alt="proyect"]{
+
+    height: 70vh;
+  }
   /*
   .mgb{
     margin-bottom: 2rem!important;
@@ -246,9 +318,7 @@ img[alt="logro"]{
   padding-bottom: 3rem;
 }
 
-.line{
-  border: 1px solid blue;
-}
+
 */
 /*navbar principal*/
 /*
@@ -299,39 +369,7 @@ background-color: white;
   /*posicionamiento al medio de la estrella
   margin-bottom: 10px;
 }
-.block{
-  font-size: 3rem;
-  text-align: center;
-  color: white;
-  margin-bottom: 3rem;
-}
-.block:before {
-  /*no se aplica ningun texto
-  content: " ";
-  /*se posiciona al lado de la estrella
-  display: inline-block;
-  /*tamaño de la linea
-  width: 100px;
-  height: 5px;
-  /*color de fondo
-  background: white;
-  /*posicionamiento al medio de la estrella
-  margin-bottom: 10px;
-  margin-right: 8px;
-}
-.block:after{
-  /*no se aplica ningun texto
-  content: " ";
-  /*se posiciona al lado de la estrella
-  display: inline-block;
-  /*tamaño de la linea
-  width: 100px;
-  height: 5px;
-  /*color de fondo
-  background: white;
-  /*posicionamiento al medio de la estrella
-  margin-bottom: 10px;
-}
+
 .icon:before {
   /*no se aplica ningun texto
   content: " ";
@@ -408,10 +446,7 @@ img[alt="materialize"]{
 img[alt="jquery"]{
   width: 10vw;
 }
-.proyect{
-  background-color: #3b323c;
-  height: 21s00px;
-}
+
 .proyect-img{
   border: 5px solid white;
 }
@@ -445,24 +480,11 @@ img[alt="proyect"]{
   margin-bottom: 5rem;
 }
 
-.background{
-	width: 90%;
-  height: 60vh;
-	margin: auto;
-  border-radius: 1rem;
-	position: absolute;
-	z-index: 1;
-	top: 0; left: 0; bottom: 50px; right: 0;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-}
+
 .background h2, .background h4{
   color: #ec6568;
 }
-.ocultar{
-	display: none;
-}
+
 .boton-link{
   color:#ec6568;
   display: block;
