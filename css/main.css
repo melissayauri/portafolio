@@ -211,16 +211,15 @@ img[alt="proyect"]{
   border: 3px solid white;
 }
 .background{
-	width: 90%;
-  height: 60vh;
+	width: 80%;
+  height: 30vh;
 	margin: auto;
-  border-radius: 1rem;
+
 	position: absolute;
 	z-index: 1;
-	top: 0; left: 0; bottom: 50px; right: 0;
-  background-color: rgba(255,255,255,0.7);
-  display: flex;
-  flex-direction: column;
+	top: 0; left: 0; bottom: 100px; right: 0;
+  background-color: rgba(255,255,255,0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 .ocultar{
 	display: none;
