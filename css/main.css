@@ -127,12 +127,20 @@ img[alt="about"]{
   margin-top: 2rem;
 
 }
+.nav-link:hover{
+    background-color: #3b323c;
+    border-radius: 10px;
+}
 .resume{
   background-color: #ef7674;
   display: block;
   color: white;
 
   border-radius: 1rem;
+}
+.resume:hover{
+  color: white;
+  background-color: #3b323c;
 }
 /*seccion mis habilidades*/
 img[alt="icon-hablt"]{
@@ -230,6 +238,7 @@ img[alt="proyect"]{
   font-size: 3.5rem;
 }
 
+
 .contact{
   height: 500px;
 }
@@ -274,6 +283,9 @@ footer{
 
     height: 30vh;
   }
+  .mail{
+    font-size: 16px;
+  }
   .background{
 
     height: 25vh;
@@ -296,7 +308,8 @@ footer{
     right: 5rem;
   }
   .circle h1{
-    font-size: 3.5rem;
+    font-size: 4rem;
+
   }
   .prompt h1{
     font-size: 4rem;
@@ -338,6 +351,6 @@ footer{
 
   }
   .contact{
-    height: 360px;
+    height: 300px;
   }
  }
