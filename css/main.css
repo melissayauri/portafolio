@@ -1,13 +1,8 @@
+/*generales*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-.mgt{
-  padding-bottom: 3rem;
-}
-.ing{
-  word-wrap: break-word;
 }
 .line{
   border: 1px solid blue;
@@ -18,37 +13,46 @@ a{
 }
 body{
   color: black;
+  font-family: 'Song Myung', serif;
+}
+.letter1{
   font-family: 'Oleo Script Swash Caps', cursive;
 }
-/*navbar principal*/
+.wrap{
+  word-wrap: break-word;
+}
+
+/*navbar*/
 .principal{
-  margin: 0 auto;
   background-color:  #ec6568;
-  padding: 0.7rem 3.5rem;
   position: fixed;
-  max-width: 100%;
   width: 100%;
-  z-index: 7000;
-  font-family: 'Roboto', sans-serif;
+  z-index: 1000;
 }
-.navbar-default .navbar-brand{
+.navbar-light .navbar-brand{
   color: white;
 }
-.navbar-default .navbar-nav>li>a{
+.navbar-light .navbar-toggler{
+  border-color: white;
   color: white;
 }
-.navbar-default .navbar-toggle .icon-bar{
-background-color: white;
+.navbar-light .navbar-toggler-icon {
+    color: white;
 }
-.circle{
-  width: 100px;
-  height: 100px;
-  border: 8px solid #fad2d1;
+.navbar-light .navbar-nav .active>.nav-link{
+  color: white;
+}
+.circle-nav{
+  width: 65px;
+  height: 65px;
+  border: 5px solid #fad2d1;
   background-color: #352d36;
   border-radius: 50%;
-  position: relative;
-  right: 5rem;
-  top: 1rem;
+}
+/*secciòn presentación*/
+.coral{
+  background-color: #ec6568;
+  color: white;
 }
 .img-profile{
   background-image: url("../assets/imagenes/meli1.jpg");
@@ -57,34 +61,38 @@ background-color: white;
   background-size: cover;
   height: 45vh;
   width: 40vw;
-
 }
-.coral{
-  background-color: #ec6568;
-  color: white;
+.circle{
+  width: 100px;
+  height: 100px;
+  border: 8px solid #fad2d1;
+  background-color: #352d36;
+  border-radius: 50%;
+  position: relative;
+  right: 4rem;
+  top: 1rem;
 }
-.name{
-  margin-top: 4rem;
-}
+/*efecto*/
 .output {
   display:none;
 }
-.active:after {
+.activ:after {
   content: '|';
 }
-.mg{
-  margin-top: 0px;
-}
+/* Sección sobre mi*/
 .gray{
   background-color: #e6e6e6;
 }
 /* segunda sección*/
+
 .icon{
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
-  margin-bottom: 2rem;
+
 }
+
 /*aplicando línea laterale a la estrella*/
+
 .icon:after {
   /*no se aplica ningun texto*/
   content: " ";
@@ -98,11 +106,73 @@ background-color: white;
   /*posicionamiento al medio de la estrella*/
   margin-bottom: 10px;
 }
+.icon:before {
+  /*no se aplica ningun texto*/
+  content: " ";
+  /*se posiciona al lado de la estrella*/
+  display: inline-block;
+  /*tamaño de la linea*/
+  width: 100px;
+  height: 5px;
+  /*color de fondo*/
+  background: black;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+img[alt="about"]{
+  border: 6px solid white;
+  width: 100%;
+  height: 20vh;
+  margin-top: 2rem;
+
+}
+.resume{
+  background-color: #ef7674;
+  display: block;
+  color: white;
+
+  border-radius: 1rem;
+}
+/*seccion mis habilidades*/
+img[alt="icon-hablt"]{
+  width: 60%;
+  height: 70px;
+
+}
+img[alt="icon-hablt1"]{
+  width: 90%;
+  height: 80px;
+
+}
+/*sección mis logros*/
+.btn-coral{
+  background-color: #ef7674;
+  border-color: #ef7674;
+  color: white;
+}
+.btn-coral:hover{
+  background-color: #3b323c;
+  border-color:#3b323c;
+  color: white;
+}
+a:active{
+  color: white;
+}
+img[alt="logro"]{
+  width: 100%;
+  height: 35vh;
+
+}
+/*sección proyects*/
+.proyect{
+  background-color: #3b323c;
+}
 .block{
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   color: white;
-  margin-bottom: 3rem;
+
 }
 .block:before {
   /*no se aplica ningun texto*/
@@ -131,273 +201,143 @@ background-color: white;
   /*posicionamiento al medio de la estrella*/
   margin-bottom: 10px;
 }
-.icon:before {
-  /*no se aplica ningun texto*/
-  content: " ";
-  /*se posiciona al lado de la estrella*/
-  display: inline-block;
-  /*tamaño de la linea*/
-  width: 100px;
-  height: 5px;
-  /*color de fondo*/
-  background: black;
-  /*posicionamiento al medio de la estrella*/
-  margin-bottom: 10px;
-  margin-right: 8px;
-}
-.block:before{
-  background: white;
-}
-.title{
-  padding-top: 3rem;
-}
-img[alt="about"]{
-  border: 6px solid white;
-  margin-top: 2rem;
-  width: 100%;
-  height: 20vh;
-}
-.info{
-  margin-top: 4rem;
-  margin-bottom: 3rem;
-  line-height: 2;
-  text-align: justify;
-  font-family: 'Roboto', sans-serif;
-}
-.gray h4{
-  color:#303030;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-}
-.color-gray{
-  color:#303030;
-}
-.resume{
-  background-color: #ef7674;
-  display: block;
-  color: white;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-
-  margin-bottom: 3rem;
-  border-radius: 1rem;
-}
-a{
-  color: white;
-}
-.resume:hover{
-  background-color: white;
-  color: #ef7674;
-}
-/*esto hace el circle*/
-.icon-skill {
-  border: 1px solid white;
-  width: 10vw;
-  height: 10vh;
-  text-align: center;
-  border-radius: 50%;
-  background-color:   #ec6568;
-  color: white;
-  font-size: 3rem;
-  margin-left: 3rem;
-  z-index: 4000;
-}
-.icon-skill div{
-  margin-top: 1rem;
-}
-.skill{
-  background-color: white;
-  margin-bottom: 2rem;
-}
-img[alt="materialize"]{
-  width: 5vw;
-  margin-bottom: 2rem;
-}
-img[alt="jquery"]{
-  width: 10vw;
-}
-.proyect{
-  background-color: #3b323c;
-  height: 21s00px;
-}
-.proyect-img{
-  border: 5px solid white;
-}
-.title2{
-  padding-top: 3rem;
-  color: white;
-}
-/*ultima*/
-.circle-contact{
-  width: 100px;
-  height: 100px;
-  background-color: #ec6568;
-  border-radius: 50%;
-  margin-bottom: 2rem;
-
-}
-
-.circle-contact a {
-  display: block;
-  font-size: 5rem;
-  color: white;
-  text-align: center;
-  padding-top: 1rem;
-}
+/*secciòn proyectos*/
 img[alt="proyect"]{
   width: 100%;
-  height: 60vh;
-  border: 5px solid white;
-  border-radius: 1rem;
-  margin-bottom: 5rem;
+  height: 45vh;
 }
-/**/
+
+.borde{
+  border: 3px solid white;
+}
 .background{
-	width: 90%;
-  height: 60vh;
+	width: 80%;
+  height: 30vh;
 	margin: auto;
-  border-radius: 1rem;
+
 	position: absolute;
 	z-index: 1;
-	top: 0; left: 0; bottom: 50px; right: 0;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-}
-.background h2, .background h4{
-  color: #ec6568;
+	top: 0; left: 0; bottom: 100px; right: 0;
+  background-color: rgba(255,255,255,0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 .ocultar{
 	display: none;
 }
-.boton-link{
-  color:#ec6568;
-  display: block;
-  font-size: 24px;
-  margin-top: 8rem;
+/*fppter*/
+.icon-footer{
+  color: #ef7674;
+  font-size: 3.5rem;
 }
-button{
-  margin-top: 2rem;
+
+.contact{
+  height: 500px;
 }
+.mail{
+  font-size: 14px;
+}
+/*Footer*/
 footer{
   background-color:#ec6568;
   height: 60px;
   color: white;
 }
-/*imagen para los logros*/
-img[alt="creaton"]{
-  width: 80%;
-  height: 40vh;
-  border-radius: 20px;
-  border: 5px solid white;
-}
-.logros{
-  padding-bottom: 2rem;
-}
-.link{
-  display: block;
-  color:#ec6568;
-  margin-bottom: 4rem;
-}
-.link:hover{
-  color: black;
-  text-decoration: none;
-}
-.logros h4{
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
-  margin-top: 2rem;
-}
-.flex{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.mail{
-  font-size: 16px;
-  margin-bottom: 2rem;
-  margin-right: 2rem;
-}
-/* layout desktop*/
-@media (min-width: 992px){
-  .circle{
+/* Tablets*/
+@media (min-width: 768px){
+  .img-profile{
+    height: 35vh;
+  }
+  img[alt="about"]{
     width: 200px;
-    height: 200px;
-    right: 9rem;
-    top: 3rem;
+    height: 180px;
+    margin-top: 0rem;
+    position: absolute;
+    bottom: -20px;
+    left: 1.5rem;
   }
-  .circle h1{
-    font-size: 8rem;
-    margin-top: 5rem;
+  img[alt="icon-hablt"]{
+    width: 50%;
+
+
   }
-  .prompt h1{
-    margin-top: 8rem;
-    font-size: 7rem;
+  img[alt="icon-hablt1"]{
+    width: 70%;
+
+
   }
-  .prompt h4{
-    font-size: 4rem;
+  img[alt="logro"]{
+
+    height: 20vh;
+
   }
+  img[alt="proyect"]{
+
+    height: 30vh;
+  }
+  .background{
+
+    height: 25vh;
+
+  }
+  .contact{
+    height: 900px;
+  }
+
+}
+
+/* desktop*/
+@media (min-width: 992px) {
   .img-profile{
     height: 100vh;
-
-
-
-
   }
-  /* seccion about*/
+  .circle{
+    width: 150px;
+    height: 150px;
+    right: 5rem;
+  }
+  .circle h1{
+    font-size: 3.5rem;
+  }
+  .prompt h1{
+    font-size: 4rem;
+  }
   img[alt="about"]{
-    height: 30vh;
-    width: 80%;
-    position:absolute;
-    top: -70px;
-    margin-left: 2rem;
+    width: 230px;
+    height: 200px;
+    /*margin-left: 3.5rem;
+    width: 160px;
+    height: 120px;*/
+    /*
+    bottom: -2rem;
+    */
+    position: absolute;
+    left: 3rem;
+  }
+  img[alt="icon-hablt"]{
+    width: 30%;
 
 
+  }
+  img[alt="icon-hablt1"]{
+    width: 40%;
 
 
   }
-  .gray .text-left h4, .gray .text-right h4|{
-    margin-bottom: 4rem;
+  img[alt="logro"]{
+    width: 100%;
+    height: 50vh;
 
   }
-  .gray .text-left p, .gray .text-right p{
-    margin-bottom: 3rem;
+  img[alt="proyect"]{
+
+    height: 70vh;
   }
-  img[alt="jquery"]{
-    width: 5vw;
+  .background{
+  	width: 80%;
+    height: 60vh;
+
   }
-  /*seccion skills*/
-  .icon-skill {
-    margin-left: 13rem;
-    height: 18vh;
+  .contact{
+    height: 360px;
   }
-  .icon-skill div{
-    margin-top: 2rem;
-    font-size: 5rem;
-  }
-  .info{
-    font-size: 18px;
-  }
-.space{
-  display: block;
-  margin-top: 9rem;
-}
-.flex{
-  margin-top: 4rem;
-}
-img[alt="proyect"]{
-  width: 100%;
-  height: 80vh;
-}
-.background{
-  width: 90%;
-  height: 80vh;
-  top: 0; left: 0; bottom: 50px; right: 0;
-}
-.mail{
-  margin-right: 4rem;
-}
-.circle-contact{
-  margin-left: 3rem;
-}
-}
+ }
