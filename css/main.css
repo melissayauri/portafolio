@@ -224,6 +224,24 @@ img[alt="proyect"]{
 .ocultar{
 	display: none;
 }
+/*fppter*/
+.icon-footer{
+  color: #ef7674;
+  font-size: 3.5rem;
+}
+
+.contact{
+  height: 500px;
+}
+.mail{
+  font-size: 14px;
+}
+/*Footer*/
+footer{
+  background-color:#ec6568;
+  height: 60px;
+  color: white;
+}
 /* Tablets*/
 @media (min-width: 768px){
   .img-profile{
@@ -255,6 +273,9 @@ img[alt="proyect"]{
   img[alt="proyect"]{
 
     height: 30vh;
+  }
+  .contact{
+    height: 900px;
   }
 
 }
@@ -306,11 +327,9 @@ img[alt="proyect"]{
 
     height: 70vh;
   }
-  /*
-  .mgb{
-    margin-bottom: 2rem!important;
+  .contact{
+    height: 360px;
   }
-*/
  }
 /*
 .mgt{
@@ -493,11 +512,7 @@ img[alt="proyect"]{
 button{
   margin-top: 2rem;
 }
-footer{
-  background-color:#ec6568;
-  height: 60px;
-  color: white;
-}*/
+*/
 /*imagen para los logros*/
 /*
 img[alt="creaton"]{
