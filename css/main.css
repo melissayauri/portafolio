@@ -274,6 +274,11 @@ footer{
 
     height: 30vh;
   }
+  .background{
+
+    height: 25vh;
+
+  }
   .contact{
     height: 900px;
   }
@@ -286,8 +291,8 @@ footer{
     height: 100vh;
   }
   .circle{
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     right: 5rem;
   }
   .circle h1{
@@ -327,310 +332,12 @@ footer{
 
     height: 70vh;
   }
+  .background{
+  	width: 80%;
+    height: 60vh;
+
+  }
   .contact{
     height: 360px;
   }
  }
-/*
-.mgt{
-  padding-bottom: 3rem;
-}
-
-
-*/
-/*navbar principal*/
-/*
-
-.navbar-default .navbar-brand{
-  color: white;
-}
-.navbar-default .navbar-nav>li>a{
-  color: white;
-}
-.navbar-default .navbar-toggle .icon-bar{
-background-color: white;
-}
-
-
-
-.name{
-  margin-top: 4rem;
-}*/
-
-/*
-.mg{
-  margin-top: 0px;
-}
-.gray{
-  background-color: #e6e6e6;
-}*/
-/* segunda sección*/
-/*
-.icon{
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 2rem;
-}*/
-
-/*aplicando línea laterale a la estrella*/
-/*
-.icon:after {
-  /*no se aplica ningun texto
-  content: " ";
-  /*se posiciona al lado de la estrella
-  display: inline-block;
-  /*tamaño de la linea
-  width: 100px;
-  height: 5px;
-  /*color de fondo
-  background: black;
-  /*posicionamiento al medio de la estrella
-  margin-bottom: 10px;
-}
-
-.icon:before {
-  /*no se aplica ningun texto
-  content: " ";
-  /*se posiciona al lado de la estrella
-  display: inline-block;
-  /*tamaño de la linea
-  width: 100px;
-  height: 5px;
-  /*color de fondo
-  background: black;
-  /*posicionamiento al medio de la estrella
-  margin-bottom: 10px;
-  margin-right: 8px;
-}
-.block:before{
-  background: white;
-}
-.title{
-  padding-top: 3rem;
-}
-img[alt="about"]{
-  border: 6px solid white;
-  margin-top: 2rem;
-  width: 100%;
-  height: 20vh;
-}
-.info{
-  margin-top: 4rem;
-  margin-bottom: 3rem;
-  line-height: 2;
-  text-align: justify;
-  font-family: 'Roboto', sans-serif;
-}
-.gray h4{
-  color:#303030;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-}
-.color-gray{
-  color:#303030;
-}
-
-a{
-  color: white;
-}
-.resume:hover{
-  background-color: white;
-  color: #ef7674;
-}*/
-/*esto hace el circle
-.icon-skill {
-  border: 1px solid white;
-  width: 10vw;
-  height: 10vh;
-  text-align: center;
-  border-radius: 50%;
-  background-color:   #ec6568;
-  color: white;
-  font-size: 3rem;
-  margin-left: 3rem;
-  z-index: 4000;
-}
-.icon-skill div{
-  margin-top: 1rem;
-}
-.skill{
-  background-color: white;
-  margin-bottom: 2rem;
-}
-img[alt="materialize"]{
-  width: 5vw;
-  margin-bottom: 2rem;
-}
-img[alt="jquery"]{
-  width: 10vw;
-}
-
-.proyect-img{
-  border: 5px solid white;
-}
-.title2{
-  padding-top: 3rem;
-  color: white;
-}*/
-/*ultima*/
-/*
-.circle-contact{
-  width: 100px;
-  height: 100px;
-  background-color: #ec6568;
-  border-radius: 50%;
-  margin-bottom: 2rem;
-
-}
-
-.circle-contact a {
-  display: block;
-  font-size: 5rem;
-  color: white;
-  text-align: center;
-  padding-top: 1rem;
-}
-img[alt="proyect"]{
-  width: 100%;
-  height: 60vh;
-  border: 5px solid white;
-  border-radius: 1rem;
-  margin-bottom: 5rem;
-}
-
-
-.background h2, .background h4{
-  color: #ec6568;
-}
-
-.boton-link{
-  color:#ec6568;
-  display: block;
-  font-size: 24px;
-  margin-top: 8rem;
-}
-button{
-  margin-top: 2rem;
-}
-*/
-/*imagen para los logros*/
-/*
-img[alt="creaton"]{
-  width: 80%;
-  height: 40vh;
-  border-radius: 20px;
-  border: 5px solid white;
-}
-.logros{
-  padding-bottom: 2rem;
-}
-.link{
-  display: block;
-  color:#ec6568;
-  margin-bottom: 4rem;
-}
-.link:hover{
-  color: black;
-  text-decoration: none;
-}
-.logros h4{
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
-  margin-top: 2rem;
-}
-.flex{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.mail{
-  font-size: 16px;
-  margin-bottom: 2rem;
-  margin-right: 2rem;
-}*/
-/* layout desktop*/
-@media (min-width: 992px){
-/*  .circle{
-    width: 200px;
-    height: 200px;
-    right: 9rem;
-    top: 3rem;
-  }
-  .circle h1{
-    font-size: 8rem;
-    margin-top: 5rem;
-  }
-  .prompt h1{
-    margin-top: 8rem;
-    font-size: 7rem;
-  }
-  .prompt h4{
-    font-size: 4rem;
-  }
-  .img-profile{
-    height: 100vh;
-
-
-
-
-  }*/
-  /* seccion about*/
-  /*
-  img[alt="about"]{
-    height: 30vh;
-    width: 80%;
-    position:absolute;
-    top: -70px;
-    margin-left: 2rem;
-
-
-
-
-  }
-  .gray .text-left h4, .gray .text-right h4|{
-    margin-bottom: 4rem;
-
-  }
-  .gray .text-left p, .gray .text-right p{
-    margin-bottom: 3rem;
-  }
-  img[alt="jquery"]{
-    width: 5vw;
-  }*/
-  /*seccion skills*/
-/*
-  .icon-skill {
-    margin-left: 13rem;
-    height: 18vh;
-  }
-  .icon-skill div{
-    margin-top: 2rem;
-    font-size: 5rem;
-  }
-  .info{
-    font-size: 18px;
-  }
-.space{
-  display: block;
-  margin-top: 9rem;
-}
-.flex{
-  margin-top: 4rem;
-}
-img[alt="proyect"]{
-  width: 100%;
-  height: 80vh;
-}
-.background{
-  width: 90%;
-  height: 80vh;
-  top: 0; left: 0; bottom: 50px; right: 0;
-}
-.mail{
-  margin-right: 4rem;
-}
-.circle-contact{
-  margin-left: 3rem;
-}
-}
-*/
