@@ -1,4 +1,5 @@
 /*generales*/
+
 *{
   margin: 0;
   padding: 0;
@@ -131,16 +132,31 @@ img[alt="about"]{
     background-color: #3b323c;
     border-radius: 10px;
 }
+
 .resume{
-  background-color: #ef7674;
-  display: block;
-  color: white;
 
   border-radius: 1rem;
+  color: #FFF;
+               background: #ef7674;
+
+
+               display: block;
+
+
+               -webkit-transition: all ease 0.8s;
+               -moz-transition: all ease 0.8s;
+               transition: all ease 0.8s;
+
 }
-.resume:hover{
-  color: white;
-  background-color: #3b323c;
+
+
+.resume:hover {
+/*  color: white;
+  background-color: #3b323c;*/
+   box-shadow: inset 0 80px 0 0 #3b323c;
+   color: white;
+   border-color: #3b323c;
+
 }
 /*seccion mis habilidades*/
 img[alt="icon-hablt"]{
@@ -155,14 +171,22 @@ img[alt="icon-hablt1"]{
 }
 /*sección mis logros*/
 .btn-coral{
-  background-color: #ef7674;
+  background: #ef7674;
   border-color: #ef7674;
   color: white;
+
+
+
+                 -webkit-transition: all ease 1s;
+                 -moz-transition: all ease 1s;
+                 transition: all ease 1s;
+
 }
 .btn-coral:hover{
-  background-color: #3b323c;
-  border-color:#3b323c;
+
+  box-shadow: inset 0 80px 0 0 #3b323c;
   color: white;
+  border-color: #3b323c;
 }
 a:active{
   color: white;
