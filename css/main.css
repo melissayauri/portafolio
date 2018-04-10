@@ -1,5 +1,4 @@
 /*generales*/
-
 *{
   margin: 0;
   padding: 0;
@@ -85,15 +84,11 @@ body{
   background-color: #e6e6e6;
 }
 /* segunda sección*/
-
 .icon{
   font-size: 2rem;
   text-align: center;
-
 }
-
-/*aplicando línea laterale a la estrella*/
-
+/*aplicando línea laterale a los íconos*/
 .icon:after {
   /*no se aplica ningun texto*/
   content: " ";
@@ -129,61 +124,43 @@ img[alt="about"]{
 
 }
 .nav-link:hover{
-    background-color: #3b323c;
-    border-radius: 10px;
+  background-color: #3b323c;
+  border-radius: 10px;
 }
-
 .resume{
-
   border-radius: 1rem;
   color: #FFF;
-               background: #ef7674;
-
-
-               display: block;
-
-
-               -webkit-transition: all ease 0.8s;
-               -moz-transition: all ease 0.8s;
-               transition: all ease 0.8s;
-
+  background: #ef7674;
+  display: block;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
 }
 
-
 .resume:hover {
-/*  color: white;
-  background-color: #3b323c;*/
-   box-shadow: inset 0 80px 0 0 #3b323c;
-   color: white;
-   border-color: #3b323c;
-
+  box-shadow: inset 0 80px 0 0 #3b323c;
+  color: white;
+  border-color: #3b323c;
 }
 /*seccion mis habilidades*/
 img[alt="icon-hablt"]{
   width: 60%;
   height: 70px;
-
 }
 img[alt="icon-hablt1"]{
   width: 90%;
   height: 80px;
-
 }
 /*sección mis logros*/
 .btn-coral{
   background: #ef7674;
   border-color: #ef7674;
   color: white;
-
-
-
-                 -webkit-transition: all ease 1s;
-                 -moz-transition: all ease 1s;
-                 transition: all ease 1s;
-
+  -webkit-transition: all ease 1s;
+  -moz-transition: all ease 1s;
+  transition: all ease 1s;
 }
 .btn-coral:hover{
-
   box-shadow: inset 0 80px 0 0 #3b323c;
   color: white;
   border-color: #3b323c;
@@ -194,7 +171,6 @@ a:active{
 img[alt="logro"]{
   width: 100%;
   height: 35vh;
-
 }
 /*sección proyects*/
 .proyect{
@@ -204,7 +180,6 @@ img[alt="logro"]{
   font-size: 2rem;
   text-align: center;
   color: white;
-
 }
 .block:before {
   /*no se aplica ningun texto*/
@@ -242,12 +217,12 @@ img[alt="proyect"]{
 .borde{
   border: 3px solid white;
 }
+/* efecto hover en las imágenes de proyectos*/
 .background{
 	width: 80%;
   height: 30vh;
 	margin: auto;
-
-	position: absolute;
+  position: absolute;
 	z-index: 1;
 	top: 0; left: 0; bottom: 100px; right: 0;
   background-color: rgba(255,255,255,0.8);
@@ -261,8 +236,6 @@ img[alt="proyect"]{
   color: #ef7674;
   font-size: 3.5rem;
 }
-
-
 .contact{
   height: 500px;
 }
@@ -290,35 +263,26 @@ footer{
   }
   img[alt="icon-hablt"]{
     width: 50%;
-
-
   }
   img[alt="icon-hablt1"]{
     width: 70%;
-
-
   }
   img[alt="logro"]{
-
     height: 20vh;
-
   }
   img[alt="proyect"]{
-
     height: 30vh;
   }
   .mail{
     font-size: 16px;
   }
   .background{
-
     height: 25vh;
 
   }
   .contact{
     height: 900px;
   }
-
 }
 
 /* desktop*/
@@ -333,7 +297,6 @@ footer{
   }
   .circle h1{
     font-size: 4rem;
-
   }
   .prompt h1{
     font-size: 4rem;
@@ -341,38 +304,25 @@ footer{
   img[alt="about"]{
     width: 230px;
     height: 200px;
-    /*margin-left: 3.5rem;
-    width: 160px;
-    height: 120px;*/
-    /*
-    bottom: -2rem;
-    */
     position: absolute;
     left: 3rem;
   }
   img[alt="icon-hablt"]{
     width: 30%;
-
-
   }
   img[alt="icon-hablt1"]{
     width: 40%;
-
-
   }
   img[alt="logro"]{
     width: 100%;
-    height: 50vh;
-
+    height: 40vh;
   }
   img[alt="proyect"]{
-
     height: 70vh;
   }
   .background{
   	width: 80%;
     height: 60vh;
-
   }
   .contact{
     height: 300px;
